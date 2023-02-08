@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+html, body{
+  height: 100%;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link-menu {
+  color: white;
+  text-decoration: none;
+}
+
+.quantity {
+  position: absolute;
+  bottom: 0;
+  left: 70%;
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: rgb(95, 15, 15);
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .section__padding {
+    padding: 4rem;
+  }
+
+  .section__margin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+
+  .section__margin {
+    margin: 4rem 2rem;
+  }  
+}

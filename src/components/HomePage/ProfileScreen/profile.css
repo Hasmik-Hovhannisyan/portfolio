@@ -1,0 +1,24 @@
+.search {
+  position: absolute;
+  right: 10px;
+  height: 25px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.card-button {
+  width: 100%;
+  border: 1px solid rgb(79, 44, 44);
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: white;
+  background-color: rgba(39, 90, 107, 1);
+  padding:5px;
+  font-size: 14px;
+}
+
+.passive{
+  display: none;
+}
